@@ -1,5 +1,5 @@
 import React from 'react';
-// import ParticlesBg from "particles-bg";
+import ParticlesBg from "particles-bg";
 import { Link } from 'react-scroll';
 import '../index.css';
 
@@ -7,7 +7,8 @@ import '../index.css';
 const Home = () => {
   return (
     
-    <div name='home' className='w-full h-fit sm:h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen sm:h-screen'>
+      <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} />
       
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -25,7 +26,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      {/* <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} /> */}
+      
     </div>
   )
 }
