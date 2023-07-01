@@ -1,5 +1,5 @@
 import React from 'react';
-import ParticlesBg from "particles-bg";
+// import ParticlesBg from "particles-bg";
 import { Link } from 'react-scroll';
 import '../index.css';
 
@@ -25,7 +25,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} />
+      {/* <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} /> */}
     </div>
   )
 }
