@@ -8,7 +8,7 @@ const Home = () => {
   return (
     
     <div name='home' className='w-full h-screen '>
-      <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} />
+      
 
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -26,7 +26,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-
+      <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} />
     </div>
   )
 }
