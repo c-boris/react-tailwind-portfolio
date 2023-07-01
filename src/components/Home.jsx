@@ -7,9 +7,8 @@ import '../index.css';
 const Home = () => {
   return (
     
-    <div name='home' className='w-full h-screen '>
+    <div name='home' className='w-full h-screen sm:h-screen'>
       
-
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-blue-600 text-xl'>Hi, my name is</p>
