@@ -31,4 +31,6 @@
 
 .particles-bg-canvas-self{
   background: #0a192f;
+  height: 100%;
+  width: 100%;
 }
