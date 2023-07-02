@@ -5,7 +5,7 @@ import '../index.css';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen'>
+    <div name='home' className='w-full h-screen pt-24 sm:h-screen'>
       <ParticlesBg color="#0c387b" num={5} type="circle" bg={true} />
 
       {/* Container */}
